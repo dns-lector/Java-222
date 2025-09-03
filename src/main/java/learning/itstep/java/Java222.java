@@ -1,5 +1,7 @@
 package learning.itstep.java;
 
+import learning.itstep.java.async.Chaining;
+import learning.itstep.java.async.Chaining2;
 import learning.itstep.java.async.Threading;
 
 public class Java222 {
@@ -10,7 +12,8 @@ public class Java222 {
      */
     public static void main(String[] args) {
         // new Intro().demo();
-        new Threading().demo();
+        // new Threading().demo();
+        new Chaining2().demo();
     }
 }
 /*
